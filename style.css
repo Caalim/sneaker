@@ -1,0 +1,310 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .......header............ */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h2{
+     color: gray;
+     font-size: 1.8rem;
+     font-weight: 300;
+}
+
+.navbar{
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    padding: 1.2rem;
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: gray;
+}
+
+.navbar button{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    width: 10rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+/* ........hero............ */
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+}
+
+.left-section{
+    width: 25rem;
+}
+
+.left-section h2{
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.left-section p{
+    color: gray;
+    word-spacing: 5px;
+    line-height: 2rem;
+}
+.image img{
+    width: 20rem;
+    height: 20rem;
+}
+
+.top{
+    display: grid;
+    grid-template-columns: repeat(4,20rem);
+    /* gap: 10px; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: blueviolet;
+    width: 18rem;
+    height: 28rem;
+    margin:2rem 2rem;
+}
+
+.card img{
+    width: 14rem;
+    height: 10rem;
+    padding: 10px;
+}
+
+.card button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 10rem;
+    height: 2.5rem;
+}
+
+.card h2{
+    color: white;
+    padding: 5px 0px 0px 10px;
+}
+
+.card small{
+    color: white;
+    padding-left: 10px;
+}
+
+.pra{
+    padding: 5px;
+}
+
+.pra p{
+    padding:40px 0px;
+}
+
+/* .........NEW Arrive.............. */
+
+h1{
+    text-align: center;
+}
+.new{
+    background-color: blueviolet;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.prag{
+    width: 30rem;
+}
+.prag h2{
+    width: 15px;
+    padding: 25px 0px 5px 25px;
+    color: white;
+    font-size: 2rem;
+}
+
+.prag small{
+    color: white;
+    padding-left: 25px;
+}
+
+.prag p{
+    width: 25rem;
+    padding: 60px 0px 10px 25px;
+    color: white;
+}
+
+.prag button{
+    background-color: rgb(63, 61, 61);
+    color: white;
+    width: 15rem;
+    height: 2.5rem;
+    margin: 20px 0px 0px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* .img{
+    background-color: blue;
+    margin: 5rem;
+    height: 350px;
+} */
+
+.img img{
+    width: 20rem;
+    height: 18rem;
+    margin: 2rem;
+}
+/* ..........about setion........... */
+.about{
+    display: flex;
+    margin: 3rem 2rem;
+    flex-wrap: wrap;
+}
+
+.sawirk-sare img{
+    width: 30rem;
+    height: 15rem;
+}
+
+.contant{
+    width: 40rem;
+    margin-left: 3rem;
+}
+
+.contant h2{
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.contant p{
+    width: 30rem;
+    color: rgb(83, 82, 82);
+    word-spacing: 5px;
+    line-height: 2rem;
+}
+
+.contant button{
+    background-color:blueviolet;
+    color: white;
+    width: 15rem;
+    height: 2.5rem;
+    border: none;
+    margin-top: 3rem;
+}
+/* ...........contact section............ */
+.contact{
+    display: flex;
+    margin: 2rem;
+    gap: 8rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sawirka-shir img{
+    width: 25rem;
+    height: 15rem;
+}
+
+.contact input{
+    display: block;
+    margin: 20px 0px;
+    padding: 10px;
+    width: 20rem;
+    border-radius: 5px;
+}
+
+.contact button{
+    background-color:blueviolet;
+    color: white;
+    width: 20rem;
+    height: 2.5rem;
+    border: none;
+    margin-top: 1rem;
+}
+/* ............footer section............. */
+.boxes{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem 0rem 0rem 0rem;
+    padding:19px 0px;
+    flex-wrap: wrap;
+}
+
+.box-1{
+    width: 20rem;
+}
+
+.box-1 h2{
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.box-2 h2{
+    font-size: 2rem ;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.box-1 p{
+    color: rgb(83, 82, 82);
+    word-spacing: 5px;
+    line-height: 2rem;
+}
+.box-2 ul li{
+    list-style: none;
+    padding: 8px 0px;
+}
+
+.box-2 ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.box-3 ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+.box-3 ul li a{
+    text-decoration: none;
+    color: black;
+    padding-right: 3rem;
+}
+
+.box-3 img{
+    background-color: white;
+    width: 1.5rem;
+    /* margin: 1.5rem  0rem 0rem 2rem; */
+}
